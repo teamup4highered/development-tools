@@ -26,3 +26,8 @@ nvm list available
 nvm install lts (on windows)
 nvm install --lts (on linux or WSL)
 ```
+# Enable yarn
+From [yarn documentation](https://yarnpkg.com/getting-started/install)
+```
+corepack enable
+```
