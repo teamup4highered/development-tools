@@ -3,9 +3,10 @@
 We recommend setting up Node Version Manager to be able to switch vertions for various projects
 
 ## NVM on Windows 10 or 11
-Follow [Node JS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) document with the following differences:
+Follow [Node JS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) document. To run nvm under your user account you can change the defaults with the follow:
 - Select an installation folder in your regular user profile (not the admin user profile). For example ```C:\Users\{User}\AppData\Roaming\npm```.
-- Add the folder to your user path and restart 
+- Set up the links folder in your regular user profile (not the system path). For example ```C:\Users\{User}\AppData\Roaming\nodejs```.
+- Add the installation and the links folders to your user path and restart. 
 - Open a powershell as user and test by listing installed versions (should be empty for initial install)
 ```
 nvm ls
